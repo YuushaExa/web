@@ -1,18 +1,26 @@
 {
-    "dir": "ltr",
-    "lang": "English",
-    "name": "MMORPG News - #1 MMO PC and Mobile Games New…",
-    "short_name": "MMORPG News",
-    "scope": "/",
-    "display": "standalone",
-    "start_url": "https://www.mmorpg.news/",
-    "background_color": "#000000",
-    "theme_color": "#0266B3",
-    "description": "MMORPG News focuses on Asian F2P MMORPG and Mobile Games. We cover Latest MMO News and everything you want to know.",
-    "orientation": "any",
-    "related_applications": [],
-    "prefer_related_applications": false,
-    "icons": [https://1.bp.blogspot.com/-vWzOVsYt_oY/X2ungAF8i3I/AAAAAAAAh4A/6noal3hrLyQuRa0CSaDjdHH4ofR_3xJtQCLcBGAsYHQ/s0/manifest.png],
-    "url": "https://www.mmorpg.news/",
-    "screenshots": []
+  "name": "MMORPG News - #1 MMO PC and Mobile Games News",
+  "short_name": "MMORPG News",
+  "description": "MMORPG News focuses on Asian F2P MMORPG and Mobile Games. We cover Latest MMO News and everything you want to know.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "homepage_url": "https://www.mmorpg.news",
+  "icons": [{
+    "src": "https://1.bp.blogspot.com/-vWzOVsYt_oY/X2ungAF8i3I/AAAAAAAAh4A/6noal3hrLyQuRa0CSaDjdHH4ofR_3xJtQCLcBGAsYHQ/s192/manifest.png",
+    "sizes": "192x192",
+    "type": "image/png",
+    "purpose": "any maskable"
+  }, {
+    "src": "https://1.bp.blogspot.com/-vWzOVsYt_oY/X2ungAF8i3I/AAAAAAAAh4A/6noal3hrLyQuRa0CSaDjdHH4ofR_3xJtQCLcBGAsYHQ/s125/manifest.png",
+    "sizes": "128x128",
+    "type": "image/png",
+    "purpose": "any maskable"
+  }, {
+    "src": "https://1.bp.blogspot.com/-vWzOVsYt_oY/X2ungAF8i3I/AAAAAAAAh4A/6noal3hrLyQuRa0CSaDjdHH4ofR_3xJtQCLcBGAsYHQ/s512/manifest.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+  }]
 }
