@@ -1,0 +1,18 @@
+{
+    "dir": "ltr",
+    "lang": "English",
+    "name": "MMORPG News - #1 MMO PC and Mobile Games New…",
+    "short_name": "MMORPG News",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://www.mmorpg.news/",
+    "background_color": "#000000",
+    "theme_color": "#0266B3",
+    "description": "MMORPG News focuses on Asian F2P MMORPG and Mobile Games. We cover Latest MMO News and everything you want to know.",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [https://1.bp.blogspot.com/-vWzOVsYt_oY/X2ungAF8i3I/AAAAAAAAh4A/6noal3hrLyQuRa0CSaDjdHH4ofR_3xJtQCLcBGAsYHQ/s0/manifest.png],
+    "url": "https://www.mmorpg.news/",
+    "screenshots": []
+}
