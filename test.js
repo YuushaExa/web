@@ -48,3 +48,25 @@ function escapeHtml(str) {
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
 }
+
+function randomNumber(len) {
+    var randomNumber;
+    var n = '';
+
+    for(var count = 0; count < len; count++) {
+        randomNumber = Math.floor(Math.random() * 10);
+        n += randomNumber.toString();
+    }
+    return n;
+}
+
+window.onload = function() {
+document.getElementById("name").value = 'Anon#' + randomNumber(3);
+};
+
+setTimeout(function(){
+$('.comment a').click(function(event) {
+    event.preventDefault();
+   $("#message").text('@' + $(this).html() + ', ');
+});
+}, 6000);
