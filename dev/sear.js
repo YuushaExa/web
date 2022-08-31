@@ -97,7 +97,7 @@
             direction: 'ltr',
             url: loc.protocol + '//' + loc.host,
             // id: 0,
-            name: 'js-search',
+            name: 'asearch',
             css: 1,
             ad: true,
             live: true,
