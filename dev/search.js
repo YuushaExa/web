@@ -259,9 +259,6 @@
         return text.replace(q, '<mark>$&</mark>');
     }
 
-    on(win, "scroll", fit);
-    on(win, "resize", fit);
-
     win['_' + fn] = function($) {
 
         $ = $.feed || {};
