@@ -498,21 +498,6 @@
             }
         }, 1);
     }
-
-    var x = document.createElement('a');
-x.innerHTML = '&times;';
-x.href = "";
-x.addEventListener("click", function(e) {
-  var self = this.parentNode;
-  self.parentNode.removeChild(self);
-  e.preventDefault();
-}, false);
-x.style.cssText = 'position:absolute;top:.5em;right:.5em;text-decoration:none;line-height:1;';
-
-function myHookFn(e, query, start, cached, container) {
-  // Insert close button on search event
-  e === "search" && container.appendChild(x);
-}
     
     on(source, "submit", function(e) {
         ol.start = (start = 1);
