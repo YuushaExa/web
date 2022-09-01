@@ -259,6 +259,10 @@
         return text.replace(q, '<mark>$&</mark>');
     }
 
+    function get_css(prop) {
+        return win.getComputedStyle(bounds).getPropertyValue(prop);
+    }
+
     function fit(e) {
         if (settings.container || !container.parentNode) return;
         var rect = source.getBoundingClientRect(),
@@ -520,4 +524,4 @@
 
     _hook(source, 'ready', [settings, container]);
 
-})(window, document);
+})(window, document); 
