@@ -259,21 +259,6 @@
         return text.replace(q, '<mark>$&</mark>');
     }
 
-    function get_css(prop) {
-        return win.getComputedStyle(bounds).getPropertyValue(prop);
-    }
-
-    function fit(e) {
-        if (settings.container || !container.parentNode) return;
-        var rect = source.getBoundingClientRect(),
-            T = rect.top,
-            L = rect.left,
-            W = rect.width,
-            H = rect.height;
-        set_class(container, name + '-float');
-        container.style.cssText = 'background-color:' + get_css('background-color') + ';color:' + get_css('color') + ';position:fixed;z-index:9999;top:' + (T + H) + 'px;left:' + L + 'px;width:' + W + 'px;max-height:' + (win.innerHeight - T - H) + 'px;overflow:auto;';
-    }
-
     on(win, "scroll", fit);
     on(win, "resize", fit);
 
@@ -367,7 +352,7 @@
         if (_show()) {
             load(blogger('6902754948679631547') + param(extend(settings.query, {
                 'callback': '_' + fn + '_',
-                'max-results': 8,
+                'max-results': 6,
                 'orderby': 'updated'
             })) + '&q=' + encode(query));
         }
@@ -390,7 +375,17 @@
     if (!script.id) {
         script.id = name + '-js';
     }
-    
+    set_class(script, name + '-js');
+    var c = settings.container,
+        css = settings.css;
+    if (css && !doc.getElementById(name + '-css')) {
+        load(is_string(css) ? css : canon(script.src, 'css'), function() {
+            _hook(this, 'load.asset', [this.href]);
+        }, {
+            'class': name + '-css',
+            'id': name + '-css'
+        });
+    }
     if (c) {
         if (c = doc.querySelector(c)) {
             var i;
