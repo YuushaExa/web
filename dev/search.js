@@ -99,7 +99,7 @@
             // id: 0,
             name: 'asearch',
             css: 0,
-            ad: true,
+            ad: false,
             live: true,
             source: 'form[action$="/search"]',
             container: 0,
@@ -368,7 +368,7 @@
         if (_show()) {
             load(blogger('6902754948679631547') + param(extend(settings.query, {
                 'callback': '_' + fn + '_',
-                'max-results': 21,
+                'max-results': 6,
                 'orderby': 'updated'
             })) + '&q=' + encode(query));
         }
