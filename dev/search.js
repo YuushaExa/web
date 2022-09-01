@@ -390,17 +390,7 @@
     if (!script.id) {
         script.id = name + '-js';
     }
-    set_class(script, name + '-js');
-    var c = settings.container,
-        css = settings.css;
-    if (css && !doc.getElementById(name + '-css')) {
-        load(is_string(css) ? css : canon(script.src, 'css'), function() {
-            _hook(this, 'load.asset', [this.href]);
-        }, {
-            'class': name + '-css',
-            'id': name + '-css'
-        });
-    }
+    
     if (c) {
         if (c = doc.querySelector(c)) {
             var i;
