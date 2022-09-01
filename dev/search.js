@@ -98,7 +98,7 @@
             url: loc.protocol + '//' + loc.host,
             // id: 0,
             name: 'asearch',
-            css: 0,
+            css: 1,
             ad: true,
             live: true,
             source: 'form[action$="/search"]',
