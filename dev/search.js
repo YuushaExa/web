@@ -272,7 +272,6 @@
             H = rect.height;
         set_class(container, name + '-float');
         container.style.cssText = 'background-color:' + get_css('background-color') + ';color:' + get_css('color') + ';position:fixed;z-index:9999;top:' + (T + H) + 'px;left:' + L + 'px;width:' + W + 'px;max-height:' + (win.innerHeight - T - H) + 'px;overflow:auto;';
-        _hook(container, e && e.type || '', [rect]);
     }
 
     on(win, "scroll", fit);
