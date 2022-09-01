@@ -202,7 +202,7 @@
     var text = settings.text,
         chunk = settings.chunk,
         bounds = settings.container && doc.querySelector(settings.container) || doc.body,
-        container = el('div', '<div></div>', {
+        container = el('div', '<div class='search-main'></div>', {
             'class': name + ' ' + settings.direction,
             'id': name + ':' + hash
         }),
