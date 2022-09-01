@@ -272,7 +272,7 @@
             H = rect.height;
         set_class(container, name + '-float');
         container.style.cssText = 'background-color:' + get_css('background-color') + ';color:' + get_css('color') + ';position:fixed;z-index:9999;top:' + (T + H) + 'px;left:' + L + 'px;width:' + W + 'px;max-height:' + (win.innerHeight - T - H) + 'px;overflow:auto;';
-        _hook(container, e && e.type || 'fit', [rect]);
+        _hook(container, e && e.type || '', [rect]);
     }
 
     on(win, "scroll", fit);
@@ -368,7 +368,7 @@
         if (_show()) {
             load(blogger('6902754948679631547') + param(extend(settings.query, {
                 'callback': '_' + fn + '_',
-                'max-results': 6,
+                'max-results': 8,
                 'orderby': 'updated'
             })) + '&q=' + encode(query));
         }
