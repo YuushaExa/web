@@ -66,6 +66,12 @@
         while (current = name.shift()) el.classList.add(current);
     }
 
+    function reset_class(el, name) {
+        name = name.split(/\s+/);
+        var current;
+        while (current = name.shift()) el.classList.remove(current);
+    }
+
     function get_class(el, name) {
         return el.classList.contains(name);
     }
@@ -438,7 +444,15 @@
             'max-results': chunk,
             'q': q,
             'start-index': i
-        })), 
+        })), function() {
+            reset_class(parent, name + '-loading');
+            if (!is_set(caches[q])) {
+                caches[q] = {};
+            }
+            var c = ol.innerHTML;
+            caches[q][i] = [ol.children.length, c];
+            search_cache(q, i);
+        });
     }
 
     function prevent(e) {
