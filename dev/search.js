@@ -106,7 +106,7 @@
             excerpt: 0,
             image: 0,
             target: 0,
-            chunk: 10,
+            chunk: 8,
             text: {
                 title: 'Search results for query <em>%s%</em>',
                 loading: 'Searching&hellip;',
