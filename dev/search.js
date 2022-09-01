@@ -66,12 +66,6 @@
         while (current = name.shift()) el.classList.add(current);
     }
 
-    function reset_class(el, name) {
-        name = name.split(/\s+/);
-        var current;
-        while (current = name.shift()) el.classList.remove(current);
-    }
-
     function get_class(el, name) {
         return el.classList.contains(name);
     }
@@ -258,6 +252,25 @@
         q = new RegExp(q, 'i');
         return text.replace(q, '<mark>$&</mark>');
     }
+
+    function get_css(prop) {
+        return win.getComputedStyle(bounds).getPropertyValue(prop);
+    }
+
+    function fit(e) {
+        if (settings.container || !container.parentNode) return;
+        var rect = source.getBoundingClientRect(),
+            T = rect.top,
+            L = rect.left,
+            W = rect.width,
+            H = rect.height;
+        set_class(container, name + '-float');
+        container.style.cssText = 'background-color:' + get_css('background-color') + ';color:' + get_css('color') + ';position:fixed;z-index:9999;top:' + (T + H) + 'px;left:' + L + 'px;width:' + W + 'px;max-height:' + (win.innerHeight - T - H) + 'px;overflow:auto;';
+        _hook(container, e && e.type || 'fit', [rect]);
+    }
+
+    on(win, "scroll", fit);
+    on(win, "resize", fit);
 
     win['_' + fn] = function($) {
 
