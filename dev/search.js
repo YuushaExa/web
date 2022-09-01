@@ -202,7 +202,7 @@
     var text = settings.text,
         chunk = settings.chunk,
         bounds = settings.container && doc.querySelector(settings.container) || doc.body,
-        container = el('div', '<div class='search-main'></div>', {
+        container = el('div', '<div></div>', {
             'class': name + ' ' + settings.direction,
             'id': name + ':' + hash
         }),
@@ -257,10 +257,6 @@
         q = q.replace(/\s+/g, '\\s+');
         q = new RegExp(q, 'i');
         return text.replace(q, '<mark>$&</mark>');
-    }
-
-    function get_css(prop) {
-        return win.getComputedStyle(bounds).getPropertyValue(prop);
     }
 
     function fit(e) {
