@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Clark Kent",
+        "superheroName": "Superman",
+        "city": "Metropolis",
+        "strength": 100
+    },
+    {
+        "name": "Bruce Wayne",
+        "superheroName": "Batman",
+        "city": "Gotham City",
+        "strength": 65
+    },
+    {
+        "name": "Peter Parker",
+        "superheroName": "Spider-man",
+        "city": "New York City",
+        "strength": 70
+    },
+    {
+        "name": "Tony Stark",
+        "superheroName": "Iron Man",
+        "city": "New York City",
+        "strength": 55
+    },
+    {
+        "name": "Princess Diana of Theyscira",
+        "superheroName": "Wonder Woman",
+        "city": "Theyscira",
+        "strength": 65
+    },
+    {
+        "name": "Barry Allen",
+        "superheroName": "The Flash",
+        "city": "Central City",
+        "strength": 60
+    },
+    {
+        "name": "Oliver Queen",
+        "superheroName": "Green Arrow",
+        "city": "Starling City",
+        "strength": 55
+    }
+]
