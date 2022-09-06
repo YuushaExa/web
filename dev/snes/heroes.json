@@ -1,11 +1,13 @@
 [
     {
+        "id": 0,
         "name": "Clark Kent",
         "superheroName": "Superman",
         "city": "Metropolis",
         "strength": 100
     },
     {
+        "id": 1,
         "name": "Bruce Wayne",
         "superheroName": "Batman",
         "city": "Gotham City",
