@@ -1,6 +1,4 @@
-{
-  "gameList": {
-    "game": [
+[
       {
         "path": "./1941.zip",
         "name": "1941: Counter Attack (World 900227)",
@@ -1739,5 +1737,3 @@
         "players": 2
       }
     ]
-  }
-}
