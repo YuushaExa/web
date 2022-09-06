@@ -1,6 +1,5 @@
 [
     {
-        "id":0
         "name": "Clark Kent",
         "superheroName": "Superman",
         "city": "Metropolis",
@@ -13,7 +12,6 @@
         "strength": 65
     },
     {
-        "id":2
         "name": "Peter Parker",
         "superheroName": "Spider-man",
         "city": "New York City",
