@@ -493,7 +493,7 @@
       "path":"./avsph.zip",
       "name":"Super Bomberman 4 (USA)",
       "desc":"South American release. Game developed in Japan. For more information about the game itself, please see the original Japanese release entry; \"Alien vs. Predator [Green Board]\".",
-      "image":"./downloaded_images/avsph-image.jpg",
+      "image":"https://yuushaexa.github.io/web/dev/avsph-image.jpg",
       "rating":0.793584070797,
       "releasedate":1994,
       "developer":"Capcom",
