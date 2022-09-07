@@ -146,7 +146,7 @@ function deletor(_0x1c614) {
         deletor(_0x1c614.parentNode);
     }
 }
-const miejsce = document.querySelector('script[src="https://github.com/YuushaExa/web/blob/master/dev/relatedPosts.js"]');
+const miejsce = document.querySelector('script[src="https://yuushaexa.github.io/web/dev/relatedPosts%20(1).js"]');
 if (/.*\/\d{4}\/\d{2}\/.*\.html/ ['test'](location.href)) {
     blok = document.createElement('div');
     blok.setAttribute('class', 'RelatedPostsWidget');
