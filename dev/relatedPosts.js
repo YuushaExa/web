@@ -1,16 +1,16 @@
-const br0vx_0x13ed = ["title", "titleImportance", 'script[src="https://yuushaexa.github.io/web/dev/relatedPosts.js"]', "url", "undefined", "getElementsByTagName", "display", "send", "round", "Anonymous", "head", "untitled", "div", "open", "GET", "contains", "/feeds/posts/summary?start-index=", "numberOfPosts", "getAttribute", "nzwtl", "ketgr", "appendChild", "tersc", "similarity", "replace", "published", "horizontal", "push", "summary", "status", "filter", "parentNode", 
+var br0vx_0x13ed = ["title", "titleImportance", 'script[src="https://yuushaexa.github.io/web/dev/relatedPosts.js"]', "url", "undefined", "getElementsByTagName", "display", "send", "round", "Anonymous", "head", "untitled", "div", "open", "GET", "contains", "/feeds/posts/summary?start-index=", "numberOfPosts", "getAttribute", "nzwtl", "ketgr", "appendChild", "tersc", "similarity", "replace", "published", "horizontal", "push", "summary", "status", "filter", "parentNode", 
 "body", "date", '<div style="padding:5px;border:1px solid black;background:lightblue;border-radius:5px;"><img style="width:50px;float:left;margin:0 5px 5px 0;" src="$imageURL$"><div>$title$ ($similarity$)</div><div>$excerpt$</div><div><span style="margin-right:5px;">$comments$</span><span style="margin-right:5px;">$author$</span><span>$date$</span></div><div>$labels$</div></div>', "entry", "openSearch:totalResults", "thr:total", "kemnt", "altr", ";color:black;text-decoration:none;}\n\t\t.RelatedPostsWidget a.PBPrelatedPost:hover {opacity:0.8;}\n\t\t.RelatedPostsWidget a.PBPrelatedPost:active {transform:scale(0.98,0.98);}\n\t\t.RelatedPostsWidget a.PBPrelatedPost:after {content:'';display:block;clear:both;}\n\t", 
 "http://", "imageURL", "category[term]", "media:thumbnail", "class", "name", "htmlTemplate", "forEach", "toLowerCase", "</labelsLoop>", "obrzk", "&max-results=", "onload", "pblkc", "textContent", "author", "insertBefore", "excerpt", "length", "...", "querySelector", "excerptLength", "offsetHeight", "createElement", "substring", "height", "href", "style", "vertical", 'link[rel="alternate"]', "indexOf", "podob", "setAttribute", "object", "www.", "responseXML", "term", "a.PBPrelatedPost > .relatedPostBox", 
 "ards", "test", "comments", "join", "labels", "split", "querySelectorAll", "string", "RelatedPostsWidget"];
 (function(data, i) {
-  const write = function(isLE) {
+  var write = function(isLE) {
     for (; --isLE;) {
       data["push"](data["shift"]());
     }
   };
   write(++i);
 })(br0vx_0x13ed, 285);
-const br0vx_0xc534 = function(url, whensCollection) {
+var br0vx_0xc534 = function(url, whensCollection) {
   /** @type {number} */
   url = url - 0;
   let _0xc53424 = br0vx_0x13ed[url];
@@ -154,7 +154,7 @@ function gotowosce(cols) {
   if (state[br0vx_0xc534("0x26")] > 0) {
     data = state[0];
   } else {
-    const result = {};
+    var result = {};
     /** @type {!Array} */
     result[br0vx_0xc534("0x57")] = [];
     result[br0vx_0xc534("0x56")] = document["title"];
@@ -227,13 +227,13 @@ function deletor(element) {
     }
   }
 }
-const miejsce = document[br0vx_0xc534("0x28")](br0vx_0xc534("0x45"));
+var miejsce = document[br0vx_0xc534("0x28")](br0vx_0xc534("0x45"));
 if (/.*\/\d{4}\/\d{2}\/.*\.html/[br0vx_0xc534("0x3b")](location[br0vx_0xc534("0x2e")])) {
   blok = document[br0vx_0xc534("0x2b")](br0vx_0xc534("0x4f"));
   blok[br0vx_0xc534("0x34")](br0vx_0xc534("0x18"), br0vx_0xc534("0x42"));
   miejsce[br0vx_0xc534("0xa")][br0vx_0xc534("0x24")](blok, miejsce);
   if (typeof RelatedPostsWidgetSettings != br0vx_0xc534("0x35")) {
-    const br0vx_0x56ef8e = {};
+    var br0vx_0x56ef8e = {};
     /** @type {number} */
     br0vx_0x56ef8e[br0vx_0xc534("0x29")] = 140;
     /** @type {number} */
@@ -270,7 +270,7 @@ if (/.*\/\d{4}\/\d{2}\/.*\.html/[br0vx_0xc534("0x3b")](location[br0vx_0xc534("0x
   }
   /** @type {!Array} */
   tablica = [];
-  const update_map = {};
+  var update_map = {};
   update_map[br0vx_0xc534("0x46")] = br0vx_0xc534("0x3a");
   /** @type {string} */
   update_map["title"] = "nzwtl";
@@ -285,7 +285,7 @@ if (/.*\/\d{4}\/\d{2}\/.*\.html/[br0vx_0xc534("0x3b")](location[br0vx_0xc534("0x
   update_map[br0vx_0xc534("0x3e")] = br0vx_0xc534("0x57");
   zmienne = update_map;
   zapytaniee(1, 150);
-  const PDIV = document[br0vx_0xc534("0x2b")](br0vx_0xc534("0x2f"));
+  var PDIV = document[br0vx_0xc534("0x2b")](br0vx_0xc534("0x2f"));
   PDIV["innerHTML"] = "\n\t\t.RelatedPostsWidget a.PBPrelatedPost {margin:5px;padding:0;display:" + (RelatedPostsWidgetSettings[br0vx_0xc534("0x49")] === br0vx_0xc534("0x5") ? "inline-block;vertical-align:top;" : "block") + br0vx_0xc534("0x13");
   document[br0vx_0xc534("0x4d")][br0vx_0xc534("0x0")](PDIV);
 } else {
