@@ -1,6 +1,22 @@
-  [{
+  [
+     {
+      "image":"./downloaded_images/1941-image.jpg",
+      "name":"testjph",
+      "players":2
+   },
+    {
       "image":"./downloaded_images/1941-image.jpg",
       "name":"Super Bomberman 4",
+      "players":2
+   },
+    {
+      "image":"./downloaded_images/1941-image.jpg",
+      "name":"kakasu",
+      "players":2
+   },
+    {
+      "image":"./downloaded_imijioji-image.jpg",
+      "name":"jjjj",
       "players":2
    }
 ]
