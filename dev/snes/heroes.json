@@ -7,11 +7,8 @@
         "strength": 100
     },
     {
-        "id": 1,
-        "name": "Bruce Wayne",
-        "superheroName": "Batman",
-        "city": "Gotham City",
-        "strength": 65
+        "id": "Super Bomberman 4",
+        "name": "https://github.com/YuushaExa/web/blob/master/dev/snes/roms/Super%20Bomberman%204%20(Japan).zip"
     },
     {
         "name": "Peter Parker",
