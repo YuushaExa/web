@@ -1,11 +1,7 @@
 {
-  "name" :[
-{
-  "squadName" : "Super Hero Squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "Super Bomberman 4" : "https://github.com/YuushaExa/web/dev/snes/roms/Super%20Bomberman%204%20(Japan).zip",
-  "active" : true
-}
-]
+[
+   {
+      "name":"Super Bomberman 4",
+   }
+  ]
 }
