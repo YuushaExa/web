@@ -4,7 +4,7 @@
 	}
 	var config = {}, postLink, postCategories = [], i, links, script;
 	config.maxPostsToFetch = (typeof bloggerRelatedPosts_config === "object" && bloggerRelatedPosts_config.maxPostsToFetch) || 100;
-	config.maxPostsToDisplay = (typeof bloggerRelatedPosts_config === "object" && bloggerRelatedPosts_config.maxPostsToDisplay) || 5;
+	config.maxPostsToDisplay = (typeof bloggerRelatedPosts_config === "object" && bloggerRelatedPosts_config.maxPostsToDisplay) || 15;
 	postLink = document.querySelector("link[rel=canonical]").href;
 	if (/\x2F\d{4}\x2F\d{2}\x2F/.test(postLink) === false) {
 		return;
