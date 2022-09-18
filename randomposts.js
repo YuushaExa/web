@@ -1,28 +1,3 @@
-'use strict';
-/**
- * @param {string} bin
- * @param {number} size
- * @return {?}
- */
-function chunkData(bin, size) {
-  /** @type {!Array} */
-  var results = [];
-  var length = bin.length;
-  /** @type {number} */
-  var i = 0;
-  for (; i < length; i = i + size) {
-    if (i + size < length) {
-      results.push(bin.substring(i, i + size));
-    } else {
-      results.push(bin.substring(i, length));
-    }
-  }
-  return results;
-}
-const get = (doc, key) => {
-  return doc.getElementById(key);
-};
-/** @type {!Array} */
 rndm_0x4924 = ["verticalAlign", "right", "padding:1px 3px;margin:2px ", '<img src="', "obrzk", "feed", 'script[src^="https://cdn.jsdelivr.net/gh/bloggerwidgets/scripts"][src$="/randomposts.js"]', "&max-results=1", "showTitle", "search", "insertBefore", "round", "</span>", "boxBackground", "showInfo", "3545VYbgVR", "forEach", "href", "dashed", '.xRandomPost:after{content:"";display:block;clear:both;} .xRandomPost:hover{transform:scale(1.01, 1.01);opacity:0.9;} .xRandomPost:active{transform:scale(0.99, 0.99)} .RandomPostsLoad {animation:dawaj 1s linear infinite;} @keyframes dawaj {0% {transform: rotate(0deg);} 100% {transform:rotate(360deg);}}', 
 "top", '.xRandomPost[post="np27', "horizontal", "dotted", "test", "contains", "tytul", "#9d0000", "6px solid #f3f3f3", "openSearch$totalResults", "25px", "219543ENOjdz", "boxRounding", "textColor", "numberOfLabels", "1RgRtkG", "none", "cursor", "float:", "head", "margin-bottom:", "lineHeight", "0 0", "split", "LosoweWpisyFunkcje", "name", ";font-size:", "4px", "padding", "https://3.bp.blogspot.com/-go-1bJQKzCY/XIpRVUCKeCI/AAAAAAAAAQM/YUdYK3hEkcIFwcz0r-T2uErre0JOJWnrwCLcBGAs/s1600/no-image.png", "data", 
 "color:", 'a.xRandomPost[status="loading"]', "6px solid #3498db", "widget", '</span></div>\n<div style="margin-bottom:2px;"><span style="display:inline-block;width:10px;vertical-align:top;">-</span><span style="display:inline-block;box-sizing:border-box;width:calc(100% - 10px);">You have blocked access to the post feed in your Blogger settings.</span></div>\n<div style="margin-bottom:2px;"><span style="display:inline-block;width:10px;vertical-align:top;">-</span><span style="display:inline-block;box-sizing:border-box;width:calc(100% - 10px);">No internet connection</span></div>\n<div>Try to create the widget correctly again <a href="https://bloggerwidgets.github.io/random-posts" title="Random Posts Widget Generator" target="_blank" style="font-weight:bold;">here</a></div>\n</div>', 
