@@ -367,7 +367,7 @@ rcnt_0x3f210e = rcnt_0x6b0c;
     let idx = stringTests[prefixed(493)](prefixed(551));
     if (Number(idx) < 0 || isNaN(idx) || idx === null) {
       /** @type {number} */
-      idx = 70;
+      idx = 300;
     }
     let northDeclinationDefault = stringTests[prefixed(493)](prefixed(370));
     if (isNaN(northDeclinationDefault) || northDeclinationDefault === null) {
