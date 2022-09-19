@@ -29,6 +29,7 @@ function lapWszystko(name) {
         }
         if (PL$13[PL$17].getElementsByTagName('media:thumbnail').length > 0) {
             value.obrzk = PL$13[PL$17].getElementsByTagName('media:thumbnail')[0].getAttribute('url');
+	var thumburl=json.feed.entry[PL$13].media$thumbnail.url;
 	    thumburl = thumburl.replace("/s72-c/","/w414-h206-p-k-no-nu/");
         } else {
 
