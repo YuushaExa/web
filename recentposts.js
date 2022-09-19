@@ -96,7 +96,7 @@ rcnt_0x3f210e = rcnt_0x6b0c;
           }, 500);
         };
         cb("300");
-        window["addEventListener"]("resize", cb);
+        window["addEventListener"]("resize", "s300-c");
       }
       element[p(459)]();
     };
