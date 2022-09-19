@@ -170,9 +170,9 @@ rcnt_0x3f210e = rcnt_0x6b0c;
           data[p(515)] = "";
         } else {
           if (element[p(371)]) {
-            data["obrzk"] = '<img src="' + decodeURIComponent(element["media$thumbnail"][p(480)]) + p(479) + L + p(518) + data[p(400)] + p(381) + value + p(512);
+            data["obrzk"] = '<img data-src="' + decodeURIComponent(element["media$thumbnail"][p(480)]) + p(479) + L + p(518) + data[p(400)] + p(381) + value + p(512);
           } else {
-            data[p(515)] = '<img src="' + value + '" style="' + L + p(518) + data[p(400)] + p(403);
+            data[p(515)] = '<img data-src="' + value + '" style="' + L + p(518) + data[p(400)] + p(403);
           }
         }
         /** @type {number} */
