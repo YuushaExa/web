@@ -29,7 +29,7 @@ function lapWszystko(name) {
         }
         if (PL$13[PL$17].getElementsByTagName('media:thumbnail').length > 0) {
             value.obrzk = PL$13[PL$17].getElementsByTagName('media:thumbnail')[0].getAttribute('url');
-	    value.obrzk = value.obrzk.replace("/s72-c/","/w414-h206-p-k-no-nu/");
+	    value.obrzk = value.obrzk.replace("/s72-c/","/s150-c/");
         } else {
 
             value.obrzk = "https://3.bp.blogspot.com/-go-1bJQKzCY/XIpRVUCKeCI/AAAAAAAAAQM/YUdYK3hEkcIFwcz0r-T2uErre0JOJWnrwCLcBGAs/s1600/no-image.png";
