@@ -27,8 +27,9 @@ function lapWszystko(name) {
 
             value.pblkc = "";
         }
-        if (PL$13[PL$17].getElementsByTagName('media:thumbnail.replace("/s72-c/","/s300-c/");').length > 0) {
+        if (PL$13[PL$17].getElementsByTagName('media:thumbnail').length > 0) {
             value.obrzk = PL$13[PL$17].getElementsByTagName('media:thumbnail')[0].getAttribute('url');
+	    thumburl = thumburl.replace(&quot;/s72-c/&quot;,&quot;/w414-h206-p-k-no-nu/&quot;);
         } else {
 
             value.obrzk = "https://3.bp.blogspot.com/-go-1bJQKzCY/XIpRVUCKeCI/AAAAAAAAAQM/YUdYK3hEkcIFwcz0r-T2uErre0JOJWnrwCLcBGAs/s1600/no-image.png";
