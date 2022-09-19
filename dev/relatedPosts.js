@@ -198,7 +198,7 @@ if (/.*\/\d{4}\/\d{2}\/.*\.html/ ['test'](location.href)) {
 
         br0vx_0x56ef8e.numberOfPosts = 5;
         br0vx_0x56ef8e.display = 'vertical';
-        br0vx_0x56ef8e.htmlTemplate = '<div style="padding:5px;border:1px solid black;background:lightblue;border-radius:5px;"><img style="width:50px;float:left;margin:0 5px 5px 0;" data-src="$imageURL$"><div>$title$ ($similarity$)</div><div>$excerpt$</div><div><span style="margin-right:5px;">$comments$</span><span style="margin-right:5px;">$author$</span><span>$date$</span></div><div>$labels$</div></div>';
+        br0vx_0x56ef8e.htmlTemplate = '<div style="padding:5px;border:1px solid black;background:lightblue;border-radius:5px;"><img style="width:50px;float:left;margin:0 5px 5px 0;" src="$imageURL$"><div>$title$ ($similarity$)</div><div>$excerpt$</div><div><span style="margin-right:5px;">$comments$</span><span style="margin-right:5px;">$author$</span><span>$date$</span></div><div>$labels$</div></div>';
 
         br0vx_0x56ef8e.titleImportance = 30;
         RelatedPostsWidgetSettings = br0vx_0x56ef8e;
@@ -219,7 +219,7 @@ if (/.*\/\d{4}\/\d{2}\/.*\.html/ ['test'](location.href)) {
         RelatedPostsWidgetSettings.numberOfPosts = 5;
     }
     if (typeof RelatedPostsWidgetSettings.htmlTemplate != 'string') {
-        RelatedPostsWidgetSettings.htmlTemplate = '<div style="padding:5px;border:1px solid black;background:lightblue;border-radius:5px;"><img style="width:50px;float:left;margin:0 5px 5px 0;" data-src="$imageURL$"><div>$title$ ($similarity$)</div><div>$excerpt$</div><div><span style="margin-right:5px;">$comments$</span><span style="margin-right:5px;">$author$</span><span>$date$</span></div><div>$labels$</div></div>';
+        RelatedPostsWidgetSettings.htmlTemplate = '<div style="padding:5px;border:1px solid black;background:lightblue;border-radius:5px;"><img style="width:50px;float:left;margin:0 5px 5px 0;" src="$imageURL$"><div>$title$ ($similarity$)</div><div>$excerpt$</div><div><span style="margin-right:5px;">$comments$</span><span style="margin-right:5px;">$author$</span><span>$date$</span></div><div>$labels$</div></div>';
     }
 
     RelatedPostsWidgetSettings.titleImportance = Number(RelatedPostsWidgetSettings.titleImportance);
