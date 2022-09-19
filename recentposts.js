@@ -377,7 +377,7 @@ rcnt_0x3f210e = rcnt_0x6b0c;
     let value = stringTests[prefixed(493)](prefixed(556));
     if (value === "default" || value === "" || value === null) {
       /** @type {string} */
-      value = "https://1.bp.blogspot.com/-agSKfOT_mcg/YOdAzPGnEjI/AAAAAAAAAdg/sXjDeQtO9UUc4_tOgPANgH2dTry4BJYIACLcBGAsYHQ/s0/no-image.jpg";
+      value = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNF-2NhfbNvzQGpgC8Wt7zaDz_rzrCZEDxbfMDlFrcaz3MPZtBu8PRzH6MPYSBv5VodKaSfcai3xY4Q5hi_C9z7EEQCsuf7ZvbxMjdxXUOC0vkITIiEVrPR8zZbxuXFsaFeVWePjou5qzpFRpCflZlp-CpNHQJhOO32UOcvfRBcYaQ_4CfHAVdYUi8ng/s1600/no-image.jpg";
     } else {
       /** @type {string} */
       value = decodeURIComponent(value);
