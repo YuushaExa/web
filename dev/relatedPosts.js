@@ -138,14 +138,14 @@ function gotowosce(cols) {
             let text = RelatedPostsWidgetSettings.htmlTemplate;
             let module = /<labelsLoop>(?:(?!<labelsLoop>|<\/labelsLoop>).)*?<\/labelsLoop>/g;
             for (; module.test(text);) {
-                text = text.replace(module, function (colorString) {
+                text = text.replace(module, (function (colorString) {
                     let filter = colorString.replace("<labelsLoop>", "").replace('</labelsLoop>', "");
                     let output_text = "";
                     cols[x].ketgr.forEach((type) => {
                         return output_text = output_text + filter.replace(/\$label\$/g, type);
                     });
                     return output_text;
-                });
+                }));
             }
             for (let i in zmienne) {
                 let value = cols[x][zmienne[i]];
