@@ -255,3 +255,6 @@ if (/.*\/\d{4}\/\d{2}\/.*\.html/ ['test'](location.href)) {
 } else {
     deletor(miejsce);
 };
+!(function (){})()
+function runIt(fun){ fun() }
+runIt((function (){}))
