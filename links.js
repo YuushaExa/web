@@ -13,3 +13,9 @@ var regex = new RegExp(data, 'i');
 			  output += '';
 			  $('.information').html(output);         
   })            
+
+     setTimeout(function() {
+     $(&#39;.information a&#39;).each(function(){
+     this.href += $(&#39;.post-title a&#39;).text();
+})
+     }, 1000);
