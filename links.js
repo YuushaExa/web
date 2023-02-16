@@ -15,7 +15,7 @@ var regex = new RegExp(data, 'i');
   })            
 
      setTimeout(function() {
-     $(&#39;.information a&#39;).each(function(){
-     this.href += $(&#39;.post-title a&#39;).text();
+     $('.information a').each(function(){
+     this.href += $(';.post-title a').text();
 })
      }, 1000);
