@@ -19,5 +19,3 @@ var regex = new RegExp(data, 'i');
      this.href += $('.post-title a').text();
 })
      }, 1000);
-
-<script src="https://yuushaexa.github.io/web/dev/relatedPosts.js"</script>
