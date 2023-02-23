@@ -1,4 +1,4 @@
-<script src="https://yuushaexa.github.io/web/dev/relatedPosts.js"/>
+<script src="https://yuushaexa.github.io/web/dev/relatedPosts.js"</script>
 RelatedPostsWidgetSettings = {
     "display" : "horizontal",
    "numberOfPosts" : 10,
